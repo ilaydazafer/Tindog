@@ -126,17 +126,6 @@ p {
     padding: 3% 2%;
 }
 
-@media (max-width: 990px) {
-    .iphone {
-        transform: rotate(0);
-        position: static;
-    }
-
-    #title {
-        text-align: center;
-    }
-}
-
 /* CTA section */
 
 #cta {
@@ -165,6 +154,21 @@ p {
     color: #8f8f8f;
 }
 
+.footer-icon:hover {
+    color: #ff4c68;
+}
 .footer-icon {
     margin: 20px 10px;
+}
+
+
+@media (max-width: 990px) {
+    .iphone {
+        transform: rotate(0);
+        position: static;
+    }
+
+    #title {
+        text-align: center;
+    }
 }
